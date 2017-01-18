@@ -5,7 +5,7 @@ This container is for testing only do not use it in production.
 
     Install:
         docker pull nrpatten/mpos-docker
-        docker run -itd -p 80:80 -p 3333:3333 lanbetatester/mpos-docker
+        docker run -itd -p 80:80 -p 3333:3333 nrpatten/mpos-docker
         this will expose port 80 and 3333 to your network
         You will be able to http://yourboxip/ for MPOS 
         and stratum+tcp://yourboxip:3333 for stratum
